@@ -4,4 +4,4 @@ Done By :
   2. Habiba Mohamed 
   3. Farida Elhadidy
 
-To open, run the project from the "Main" class in "Views"
+To open, run the project from the "GUI" class in "Views"
