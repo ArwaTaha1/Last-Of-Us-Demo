@@ -513,6 +513,9 @@ import model.world.CollectibleCell;
 						errorMessage.setText(e1.getMessage());
 					}catch(NullPointerException e1) {
 						errorMessage.setText("Please choose a target");
+					} catch (Exception e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
 					}
 			}
 		});
@@ -532,9 +535,6 @@ import model.world.CollectibleCell;
 						updateInfo();
 						
 					} catch (InvalidTargetException e1) {
-						errorMessage.setText(e1.getMessage());
-						e1.printStackTrace();
-					} catch (NoAvailableResourcesException e1) {
 						errorMessage.setText(e1.getMessage());
 						e1.printStackTrace();
 					} catch (NotEnoughActionsException e1) {
